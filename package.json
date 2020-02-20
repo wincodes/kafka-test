@@ -1,0 +1,19 @@
+{
+  "name": "test-driven-dev",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  },
+  "author": "wincodes",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1",
+    "node-rdkafka": "^2.7.4"
+  }
+}
